@@ -17,3 +17,8 @@ def log(message):
 
 if __name__ == "__main__":
     print(saluer("DevOps"))
+
+def moyenne(liste):
+    if not liste:
+        raise ValueError("Liste vide")
+    return sum(liste) / len(liste)
