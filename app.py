@@ -17,3 +17,6 @@ def log(message):
 
 if __name__ == "__main__":
     print(saluer("DevOps"))
+
+def puissance(base, exp):
+    return base ** exp
