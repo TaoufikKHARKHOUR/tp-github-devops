@@ -6,3 +6,4 @@ def ajouter_utilisateur(nom, email):
 # Mise à jour API
 def lister_utilisateurs(): return utilisateurs
 def supprimer_utilisateur(email): pass
+# TODO: add pagination
