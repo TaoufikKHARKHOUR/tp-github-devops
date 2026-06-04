@@ -8,3 +8,6 @@ print("IMC:", calculer_imc(70,1.75))
 
 def version():
     return "2.0.0"
+
+def formater_message(msg, majuscules=False):
+    return msg.upper() if majuscules else msg.lower()
