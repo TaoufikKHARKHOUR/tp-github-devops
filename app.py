@@ -5,3 +5,6 @@ return round(poids/(taille **2),2)
 if __name__ == "__main__":
 print(saluer("DevOps"))
 print("IMC:", calculer_imc(70,1.75))
+
+def version():
+    return "2.0.0"
